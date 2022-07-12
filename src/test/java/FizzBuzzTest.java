@@ -5,19 +5,19 @@ import org.junit.jupiter.api.Test;
 public class FizzBuzzTest {
     @Test
     void testFizzBuzzStringForF() {
-        String Response = FizzBuzz.fizzBuzzString("f");
-        assertEquals("Fizz", Response, "fizz output");
+        String response = FizzBuzz.fizzBuzzString("f");
+        assertEquals("Fizz", response);
     }
 
     @Test
     void testFizzBuzzStringForB() {
         String response = FizzBuzz.fizzBuzzString("b");
-        assertEquals("Buzz", response, "Buzz output");
+        assertEquals("Buzz", response);
     }
 
     @Test
     void testFizzBuzzStringForFAndB() {
         String response = FizzBuzz.fizzBuzzString("fb");
-        assertEquals("FizzBuzz", response, "Fizzbuzz");
+        assertEquals("FizzBuzz", response);
     }
 }
