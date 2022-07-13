@@ -6,7 +6,7 @@ public class FizzBuzzTest {
    
     @Test 
     void fizzBuzzTestForNull() {
-        String response = FizzBuzz.fizzBuzzString(null);
+        String response = FizzBuzz.fizzBuzzString("");
         assertEquals(null, response);
     }
 
