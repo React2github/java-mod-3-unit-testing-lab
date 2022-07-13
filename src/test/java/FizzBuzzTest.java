@@ -27,4 +27,10 @@ public class FizzBuzzTest {
         String response = FizzBuzz.fizzBuzzString("fb");
         assertEquals("FizzBuzz", response);
     }
+
+    @Test 
+    void fizzBuzzTestForFix() {
+        String response = FizzBuzz.fizzBuzzString("fix");
+        assertEquals("Fizz", response);
+    }
 }
